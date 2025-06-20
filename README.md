@@ -4,14 +4,15 @@
 
 # Futures-Trading-with-Bollinger-Bands
 
-Yahoo Finance에서 제공하는 NASDAQ-100(USD 선물) 데이터를 활용하여 Bollinger Band 기반의 간단한 정량적 트레이딩 전략을 구현했습니다.
+Yahoo Finance에서 제공하는 NASDAQ-100(USD 선물) 데이터를 활용하여 Bollinger Band 기반의 간단한 정량적 트레이딩 전략을 구현.   
 코드 구성:
 - Bollinger Bands, MACD, RSI 지표의 개념
 - 해당 지표들을 활용한 매매 신호 생성 방법
 - 기본적인 백테스트 시뮬레이션
 - 전략의 수익성과 신호에 대한 시각화
 
-This project demonstrates a simple quantitative trading strategy using **Bollinger Bands** on **NASDAQ-100 Futures (NQ=F)**. It includes:
+This project demonstrates a simple quantitative trading strategy using **Bollinger Bands** on **NASDAQ-100 Futures (NQ=F)**.    
+It includes:
 - Technical indicator calculations (Bollinger Bands, MACD, RSI)
 - Entry/exit signal generation based on indicator logic
 - Backtest simulation to track portfolio performance
