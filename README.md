@@ -71,7 +71,7 @@ I think this strategy might work in live trading, but with several caveats. It w
 
 
 
-## 🛠️ Requirements
+## Requirements
 
 ```bash
 pip install pandas yfinance matplotlib
