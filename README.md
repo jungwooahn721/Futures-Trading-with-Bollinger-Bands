@@ -1,3 +1,7 @@
+> Name: **Jungwoo Ahn (안정우)**  
+> Major: Computer Science & Mathematics  
+> Student ID: 2021147584  
+
 # Futures-Trading-with-Bollinger-Bands
 
 Yahoo Finance에서 제공하는 NASDAQ-100(USD 선물) 데이터를 활용하여 Bollinger Band 기반의 간단한 정량적 트레이딩 전략을 구현했습니다.
@@ -13,9 +17,6 @@ This project demonstrates a simple quantitative trading strategy using **Bolling
 - Backtest simulation to track portfolio performance
 - Data visualization of signals, equity curve, and indicators
 
-> Name: **Jungwoo Ahn (안정우)**  
-> Major: Computer Science & Mathematics  
-> Student ID: 2021147584  
 
 ---
 
