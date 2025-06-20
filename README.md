@@ -2,7 +2,7 @@
 > Major: Computer Science & Mathematics  
 > Student ID: 2021147584  
 
-# .ipynb 파일 따로 업로드 되어있습니다. 확인 부탁드립니다!
+# .ipynb 파일 (BollingerBand_NAS100Futures_JungwooAhn.ipynb) 따로 업로드 되어있습니다. 확인 부탁드립니다!
 
 # Futures-Trading-with-Bollinger-Bands
 
