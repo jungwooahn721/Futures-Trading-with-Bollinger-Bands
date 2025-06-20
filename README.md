@@ -50,11 +50,6 @@ Backtested performance starting from \$10,000 using the generated signals.
 
 ![Equity Curve](./images/equity_curve.png)
 
-### 3. MACD and RSI Indicators  
-Momentum and overbought/oversold zones are visualized to support entry logic.
-
-![MACD RSI](./images/macd_rsi.png)
-
 ---
 
 
