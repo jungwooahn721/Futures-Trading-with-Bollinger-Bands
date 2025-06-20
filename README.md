@@ -21,7 +21,7 @@ It includes:
 
 ---
 
-## 🧠 Motivation
+## Motivation
 
 
 저는 한때 해외 선물 거래에 관심을 가졌었고, 특히 NASDAQ-100(NAS100), 금(XAUUSD), 원유(USOUSD), 비트코인(BTCUSD)과 같은 상품들을 주로 거래해 보았습니다. 다양한 전략을 시도해본 결과, 그중에서 Bollinger Band 전략이 가장 직관적이고 제 성향에 가장 잘 맞는다고 느꼈습니다. 추세와 변동성을 함께 시각화해주기 때문에 매수·매도 시점을 명확하게 파악하는 데 도움이 되었고, 시장이 다양한 변동성 구간에서 어떻게 움직이는지를 이해하는 데 도움을 주었기 때문입니다. 프로젝트를 하며 그 당시의 관심을 다시 한번 데이터 기반, 프로그래밍적 관점에서 돌아보고, 실제 NAS100 선물 데이터를 통해 이 전략이 얼마나 효과적인지 백테스팅 해보았습니다
@@ -30,7 +30,7 @@ I chose this project because I was once very interested in futures trading—esp
 
 ---
 
-## 📊 Strategy Overview
+## Strategy Overview
 
 - **Bollinger Bands** are calculated with a 20-day moving average and ±2 standard deviations.
 - A **Buy Signal** is generated when the price falls below the lower band.
