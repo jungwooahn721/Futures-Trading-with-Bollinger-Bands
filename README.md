@@ -48,7 +48,7 @@ Shows how the price interacts with upper/lower bands and where entry/exit signal
 
 ![Bollinger Bands](./images/bollinger_signals.png)
 
-### 2. Portfolio Equity Curve  
+### 2. Portfolio Equity Curve (잔고 그래프)   
 Backtested performance starting from \$10,000 using the generated signals.
 
 ![Equity Curve](./images/equity_curve.png)
