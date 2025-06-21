@@ -65,6 +65,7 @@ Backtested performance starting from \$10,000 using the generated signals.
 실시간 시장에 이 전략을 적용하려면 몇 가지 보완이 필요할 것 같습니다. 일단 단순한 진입/청산 신호만으로는 노이즈가 많기 때문에, **손절 조건**이나 **추세 확인 지표(MACD, RSI 등)** 와의 조합이 도움이 될 수 있습니다. **아주 적은 경험이지만 과거에 '기술적 분석의 종류/전략 보다는 감정에 휘둘리지 않는 손절/익절 기준의 설정과 이행이 훨씬 중요하구나' 라는 경험을 얻은 기억이 있습니다.** 또한 실제 시장에서는 부정확한 Bollinger Band, 체결 지연, 슬리피지(slippage) 등으로 인해 백테스트 결과만큼 수익을 낼 수 있을지는 확인해 보아야 알 것 같습니다. 이번 프로젝트를 통해 과거에 흥미를 가졌던 볼린저 밴드 보조지표를 이용한 해외 선물 트레이딩 전략을 정량적으로 검증해 볼 수 있었어서 유익했던 시간이었던 것 같습니다.
 
 
+
 Looking at the first chart, which shows Bollinger Bands with buy/sell signals, the strategy appears to generate frequent trade entries that align reasonably well with local tops and bottoms. There are clear points where the price touches or crosses the lower band, triggering buy signals just before price rebounds, and similarly, sell signals near the upper band often precede a short-term decline. However, it's also visible that during strong trends—especially in 2021 and 2023—the strategy issues false counter-trend signals. This reflects one of the known weaknesses of Bollinger Bands: they tend to work better in **range-bound** markets than in **trending** ones.
 
 The equity curve shows an aggressive growth phase early on, especially during the 2020–2021 period, but later becomes relatively flat with sudden drops, suggesting the strategy's performance became inconsistent. It might indicate overfitting to specific volatility patterns or the lack of a dynamic position-sizing method.
@@ -72,6 +73,9 @@ The equity curve shows an aggressive growth phase early on, especially during th
 I think this strategy might work in live trading, but with several caveats. It would require better risk management, such as stop-loss logic and confirmation from other momentum indicators. Also, because live markets are noisy and fast-moving, execution delay and slippage can affect profitability. The backtest gave me insight into the strengths of this strategy in calm conditions, but in reality, combining Bollinger Bands with macro filters or news sentiment could enhance reliability. Overall, this was a valuable exercise in turning a manual strategy I once used into code—and seeing it work (and fail) visually taught me more than just reading about it ever could.
 
 
+## Future Works
+
+**볼린저 밴드 외에 캔들, 이동평균선, 지지 저항, 추세선, 이격도, 현재 장의 정보 등의 기준을 추가해 총 7가지의 기준을 만든 다음, 이 7가지의 기준 중 4가지 이상의 기준을 충족시키는 때에 buy/sell signal을 주는 알고리즘을 추후에 추가해 수익률을 극대화해 보고자 합니다.**
 
 ## Requirements
 
