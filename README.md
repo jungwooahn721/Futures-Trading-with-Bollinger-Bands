@@ -2,8 +2,6 @@
 > Major: Computer Science & Mathematics  
 > Student ID: 2021147584  
 
-## .ipynb 파일 (BollingerBand_NAS100Futures_JungwooAhn.ipynb) 따로 업로드 되어있습니다. 확인 부탁드립니다!
-
 # Futures Trading with Bollinger Bands
 
 Yahoo Finance에서 제공하는 NASDAQ-100(USD 선물) 데이터를 활용하여 Bollinger Band 기반의 간단한 정량적 트레이딩 전략 구현.   
